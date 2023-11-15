@@ -77,7 +77,7 @@ int main()
         roots[i] = 1;
     y = 2 * L;
 
-    priority_queue<tuple<int32_t, int, int>> q;
+    priority_queue<tuple<int, int, int>> q;
     for (int i = 1; i <= n; ++i)
         if (i >= l)
         {
